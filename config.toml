@@ -1,0 +1,26 @@
+baseURL = "https://alcyon.twilightparadox.com"
+languageCode = "es-mx"
+title = "Builder"
+Paginate = 1000
+googleAnalytics = ""
+theme = "showcase"
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
+
+[params]
+  author = "Sula"
+  description = "Landing site"
+  message = "Welcome!"
+  hideAutoMenu = false
+
+[[menu.main]]
+  name = "External"
+  url = "https://alcyon.twilightparadox.com"
+
+[social]
+  facebook = "https://facebook.com"
+  twitter = "https://twitter.com"
+  instagram = "https://instagram.com"
+  linkedin = "https://linkedin.com"
